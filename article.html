@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Big Tech: Too Powerful Today?</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Améliorations de la mise en page de l'article */
+        .article-container {
+            width: 80%;
+            margin: 0 auto;
+            padding-top: 100px; /* Ajustement pour le bandeau fixe */
+            background-color: #f9f9f9;
+        }
+
+        .article-header {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .article-header h1 {
+            font-size: 3rem;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .article-header img {
+            width: 80%;
+            height: auto;
+            border-radius: 10px;
+            margin-bottom: 20px;
+        }
+
+        .article-content {
+            font-size: 1.2rem;
+            line-height: 1.8;
+            color: #333;
+            margin-bottom: 40px;
+        }
+
+        .article-content h2 {
+            font-size: 2rem;
+            margin-top: 40px;
+            color: #444;
+        }
+
+        /* Sections alternées - image et texte */
+        .content-section {
+            display: flex;
+            flex-wrap: wrap;
+            margin-bottom: 40px;
+            align-items: center;
+        }
+
+        .content-text {
+            width: 50%;
+            padding: 20px;
+        }
+
+        .content-image {
+            width: 50%;
+            padding: 20px;
+        }
+
+        .content-image img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        /* Comment Section */
+        .comment-section {
+            margin-top: 50px;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        .comment-section h3 {
+            font-size: 2rem;
+            color: #444;
+            margin-bottom: 20px;
+        }
+
+        .comment-form {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 20px;
+        }
+
+        .comment-form input,
+        .comment-form textarea {
+            margin-bottom: 10px;
+            padding: 10px;
+            font-size: 1rem;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+        }
+
+        .comment-form button {
+            padding: 10px;
+            font-size: 1rem;
+            background-color: #333;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .comment-form button:hover {
+            background-color: #555;
+        }
+
+        .comments-list {
+            margin-top: 30px;
+        }
+
+        .comment {
+            background-color: #fafafa;
+            padding: 15px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+        }
+
+        .comment h4 {
+            font-size: 1.2rem;
+            color: #333;
+        }
+
+        .comment p {
+            font-size: 1rem;
+            color: #666;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="header-gray">
+            <div class="site-name">My Tech Blog</div>
+            <nav class="nav-overlay">
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <div class="article-container">
+        <div class="article-header">
+            <h1>Big Tech: Too Powerful Today?</h1>
+            <img src="https://theraise.eu/wp-content/uploads/2023/11/1_q0d3YtCWwrN5D_HQ2iE5sQ-1024x512.png" alt="Big Tech Image">
+            <p>A look into the power of Big Tech companies like Google, Apple, Amazon, Facebook, and Microsoft and their impact on society.</p>
+        </div>
+
+        <!-- Introduction -->
+        <div class="article-introduction">
+            <p>Big Tech companies like Google, Apple, Amazon, Facebook, and Microsoft are very important today. They control many services we use every day, like search engines, social media, and online shopping. These companies have a lot of power over information and personal data. But is their power too strong?</p>
+        </div>
+
+        <!-- Section 1 - Text Left, Image Right -->
+        <div class="content-section">
+            <div class="content-text">
+                <h2>A Monopoly on Information</h2>
+                <p>Big Tech companies control how we find information. Google decides what results we see in searches. Social media platforms, like Facebook, choose what news appears on our feeds. This control can be dangerous because they decide what is important and what is not. People and small businesses depend on these companies to reach others.</p>
+            </div>
+            <div class="content-image">
+                <img src="https://img.freepik.com/vecteurs-libre/personnes-utilisant-champ-recherche-pour-requete-moteur-donnant-resultat_74855-11000.jpg?t=st=1739022376~exp=1739025976~hmac=8f9850bf8730d8e76be2c263befa56e4515b72d26ece6eb30c93713f72ebfe61&w=1380" alt="Image for Monopoly on Information">
+            </div>
+        </div>
+
+        <!-- Section 2 - Text Right, Image Left -->
+        <div class="content-section">
+            <div class="content-image">
+                <img src="https://img.freepik.com/vecteurs-libre/illustration-concept-monde-ligne_114360-1092.jpg?t=st=1739022429~exp=1739026029~hmac=9961c3b0db0707b2226ac17c6ed2ad0005555bd72fa09e076b1f051bb03d7a48&w=826" alt="Image for Massive Data Collection">
+            </div>
+            <div class="content-text">
+                <h2>Massive Data Collection</h2>
+                <p>These companies collect a lot of personal data from users. They use this data to show ads and make money. This is a problem because people lose control over their own information. Also, if hackers attack these companies, personal data can be stolen.</p>
+            </div>
+        </div>
+
+        <!-- Section 3 - Text Left, Image Right -->
+        <div class="content-section">
+            <div class="content-text">
+                <h2>Big Economic and Social Impact</h2>
+                <p>Big Tech companies are very rich and powerful. They make it difficult for small businesses to grow. Many people work for these companies, but working conditions are not always good. Also, these companies often pay very little tax, which is bad for governments.</p>
+            </div>
+            <div class="content-image">
+                <img src="https://img.freepik.com/vecteurs-libre/illustration-operations-revenus-dessinees-main_52683-144091.jpg?t=st=1739022531~exp=1739026131~hmac=1de0814e226e7842daebb011545fb4f52232f1b99cc5b01ae4773af8cb374de8&w=826" alt="Image for Economic Impact">
+            </div>
+        </div>
+
+        <!-- Section 4 - Text Right, Image Left -->
+        <div class="content-section">
+            <div class="content-image">
+                <img src="https://img.freepik.com/vecteurs-libre/declaration-legale-avis-du-tribunal-decision-du-juge-systeme-judiciaire-avocat-avocat-etudiant-personnage-dessin-anime-papiers_335657-1598.jpg?t=st=1739022606~exp=1739026206~hmac=9ed96921a8c5638d832f5b38a01eebf532e20d5e418620cabbe7f356f7453185&w=826" alt="Image for Limiting Power">
+            </div>
+            <div class="content-text">
+                <h2>How to Limit Their Power?</h2>
+                <p>There are ways to control Big Tech. Governments can create stronger laws to protect personal data. They can also stop companies from becoming monopolies. People should learn about alternative services and protect their data online.</p>
+            </div>
+        </div>
+
+        <!-- Conclusion -->
+        <div class="article-content">
+            <h2>Conclusion</h2>
+            <p>Big Tech companies have changed the world, but their power is too big. It is important to have better rules and more awareness to keep a fair balance.</p>
+        </div>
+
+        <!-- Comment Section -->
+        <div class="comment-section">
+            <h3>Comments</h3>
+            <div class="comment-form">
+                <input type="text" id="name" placeholder="Your Name" />
+                <textarea id="comment" placeholder="Your Comment" rows="4"></textarea>
+                <button onclick="postComment()">Post Comment</button>
+            </div>
+
+            <div class="comments-list" id="comments-list">
+                <!-- Comments will be displayed here -->
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Function to handle the posting of comments
+        function postComment() {
+            var name = document.getElementById('name').value;
+            var comment = document.getElementById('comment').value;
+
+            if (name && comment) {
+                var commentList = document.getElementById('comments-list');
+                var newComment = document.createElement('div');
+                newComment.classList.add('comment');
+                
+                newComment.innerHTML = `<h4>${name}</h4><p>${comment}</p>`;
+                commentList.appendChild(newComment);
+                
+                // Clear input fields after posting
+                document.getElementById('name').value = '';
+                document.getElementById('comment').value = '';
+            } else {
+                alert("Please fill in both fields.");
+            }
+        }
+    </script>
+</body>
+</html>

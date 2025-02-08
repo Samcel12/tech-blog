@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    padding-top: 80px; /* Ajoute de l'espace sous le bandeau */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+}
+
+.header-gray {
+    background-color: #444; /* Bandeau gris */
+    padding: 10px 0;
+    width: 100%;
+    position: relative;
+}
+
+.site-name {
+    color: white;
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.nav-overlay ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 10px 0;
+}
+
+.nav-overlay ul li {
+    margin: 0 20px;
+}
+
+.nav-overlay ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+main {
+    padding: 40px 0;
+    margin-top: 120px; /* Espacement suffisant pour le bandeau fixe */
+}
+
+.main-article {
+    margin-bottom: 20px;
+}
+
+.article-bubble {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+.article-bubble h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+
+.article-image {
+    width: 80%; /* Ajuster la taille de l'image pour qu'elle soit modérée */
+    height: auto;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.article-bubble p {
+    font-size: 1rem;
+    margin-bottom: 20px;
+}
+
+.read-more {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+}
+
+.other-articles {
+    display: flex;
+    justify-content: space-between;
+}
+
+.article-preview {
+    background-color: white;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    width: 48%;
+    text-align: center;
+}
+
+.article-preview h4 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.article-preview p {
+    font-size: 1rem;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

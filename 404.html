@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Page Not Found</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        /* Mise en page de l'erreur 404 */
+        .error-container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #f4f4f4;
+            text-align: center;
+            flex-direction: row; /* Alignement horizontal des éléments */
+        }
+
+        .error-message {
+            margin-right: 50px;
+        }
+
+        .error-container h1 {
+            font-size: 3rem;
+            color: #333;
+            margin-bottom: 20px;
+        }
+
+        .error-container p {
+            font-size: 1.5rem;
+            color: #666;
+        }
+
+        .error-image {
+            width: 200px;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="error-container">
+        <div class="error-message">
+            <h1>Oops! Page Not Found.</h1>
+            <p>We couldn't find the page you were looking for.</p>
+            <p>It seems like you've taken a wrong turn. <a href="index.html">Go back to the homepage.</a></p>
+        </div>
+        <img src="https://www.google.com/images/errors/robot.png" alt="Error Animation" class="error-image">
+    </div>
+</body>
+</html>
